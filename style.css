@@ -1,0 +1,177 @@
+/* NAVAGATION BAR START - NAVAGATION BAR START - NAVAGATION BAR START - NAVAGATION BAR START -  */
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.nav {
+    background-color: rgb(0,0,0);
+    display: flex;
+    width: auto;
+    height: 70px;
+    color: white;
+    align-items: center;
+
+}
+
+.nav-links{
+    margin-top: 10px;
+    display: flex;
+    gap: 40px;
+    flex: 2;
+    font-family:'Roboto', sans-serif;
+    color: white;
+}
+
+a{
+    color: white;
+    text-decoration: none;
+}
+
+ul{
+    list-style-type: none;
+    color: white;
+}
+
+.nav-title{
+    font-family:'Roboto', sans-serif;
+    padding-right: 70px;
+    flex: 1;
+    text-align: right;
+}
+
+.btn{
+    margin-left: 200px;
+    background-color: rgb(54, 193, 224);   
+    color: white;    
+    font-family:'Roboto', sans-serif bold;
+    font-weight: bold;
+    border: black 3px solid;
+    box-shadow: 3px 3px 1px 1px rgb(0, 0, 0);
+    width: 35%;
+    height: 30px;
+    margin-bottom: 10px ;
+}
+/* NAVAGATION BAR END - NAVAGATION BAR  END - NAVAGATION BAR  END - NAVAGATION BAR  END -  */
+
+/* COVER BLOCk START -  COVER BLOCk START -  COVER BLOCk START -  COVER BLOCk START - */
+.container{
+    width: 500px;
+    margin: 40px 300px;
+}
+
+#avatar{
+    position:absolute;
+    top: 150px;
+    left: 353px;
+    height: 120px;
+    width: 120px;
+}
+
+.user-card{
+    display: flex;
+    flex-direction: column;
+    height: 700px;
+}
+/* EDUCATION BLOCK START - EDUCATION BLOCK START - EDUCATION BLOCK START - EDUCATION BLOCK START - */
+.education{
+    display: flex;
+    flex-direction: column;
+    height: 250px;
+    border: rgb(193,193,193) 2px solid;
+    margin-top: 20px;
+
+}
+
+#education-background{
+    background-color: black;
+    color: white;
+    height: 35px;
+    text-align: left;
+    font-family:'Roboto', sans-serif;
+    padding-left: 50px;
+    padding-top: 10px;
+}
+/* EDUCATION BLOCK END - EDUCATION BLOCK END - EDUCATION BLOCK END - EDUCATION BLOCK END -  */
+.header{
+    background-color: rgb(20,162,184);
+    flex: 1;
+}
+
+.card-body{
+    background-color: rgb(255, 255, 255);
+    border: rgb(193,193,193) 2px solid;
+    text-align: left;
+    padding: 40px;
+    padding-top: 70px;
+    font-family: sans-serif;
+    flex: 2;
+}
+
+#map-marker{
+    height: 20px;
+    width: 15px;
+    margin-top: 20px;
+}
+
+#skills, #brief-description {
+    margin: 20px auto;
+}
+
+#gear-icon{
+    height: 20px;
+    width: 20px;
+    margin-right: 10px;
+}
+/* COVER BLOCk END - COVER BLOCk END -COVER BLOCk END -COVER BLOCk END -COVER BLOCk END -COVER BLOCk END - */
+
+/* CONTAINER-2 BLOCK START - CONTAINER-2 BLOCK START -CONTAINER-2 BLOCK START -CONTAINER-2 BLOCK START - */
+
+.container-2{
+    border: rgb(193,193,193) 2px solid;
+    width: 400px;
+    height: 200px;
+    margin: 20px 20px;
+    position: absolute;
+    top:  90px;
+    left: 819px;
+}
+
+.connection-requests{
+    display: flex;
+    flex-direction: column;
+}
+
+/* CONTAINER-2 BLOCK END - CONTAINER-2 BLOCK END -CONTAINER-2 BLOCK END -CONTAINER-2 BLOCK END */
+
+
+/* CONTAINER-3 BLOCK START - CONTAINER-3 BLOCK START -CONTAINER-3 BLOCK START -CONTAINER-3 BLOCK START - */
+
+.container-3{
+    border: rgb(193,193,193) 2px solid;
+    width: 400px;
+    height: 390px;
+    margin: 20px 20px;
+    position: absolute;
+    top: 300px;
+    left: 820px;    
+}
+
+.your-connections{
+    display: flex;
+    flex-direction: column;
+}
+/* CONTAINER-3 BLOCK END - CONTAINER-3 BLOCK END - CONTAINER-3 BLOCK END - CONTAINER-3 BLOCK END -  */
+
+/* CONTAINER-4 BLOCK START - CONTAINER-4 BLOCK START -CONTAINER-4 BLOCK START -CONTAINER-4 BLOCK START - */
+
+.container-4{
+    border: rgb(193,193,193) 2px solid;
+    width: 400px;
+    height: 200px;
+    margin: 20px 20px;
+}
+
+/* CONTAINER-4 BLOCK END - CONTAINER-4 BLOCK END - CONTAINER-4 BLOCK END - CONTAINER-4 BLOCK END -  */
+
