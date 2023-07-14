@@ -80,7 +80,11 @@ ul{
     flex-direction: column;
     height: 250px;
     border: rgb(193,193,193) 2px solid;
-    margin-top: 20px;
+    margin-top: 30px;
+    font-family:'Roboto', sans-serif;
+    text-align: center;
+    font-size: x-large;
+    /* justify-content: space-between; */
 
 }
 
@@ -93,6 +97,27 @@ ul{
     padding-left: 50px;
     padding-top: 10px;
 }
+#dojo-title{
+    height:15px;
+    font-size: x-large;
+    padding-right: 80px;
+    font-weight: bold;
+}
+
+#dates{
+    padding-top: 20px;
+    text-align: left;
+    padding-left: 30px;
+    font-size: medium;
+}
+
+#belts{
+    padding-top: 10px;
+    padding-left: 10px;
+    font-weight: bold;
+}
+
+
 /* EDUCATION BLOCK END - EDUCATION BLOCK END - EDUCATION BLOCK END - EDUCATION BLOCK END -  */
 .header{
     background-color: rgb(20,162,184);
@@ -124,6 +149,7 @@ ul{
     width: 20px;
     margin-right: 10px;
 }
+
 /* COVER BLOCk END - COVER BLOCk END -COVER BLOCk END -COVER BLOCk END -COVER BLOCk END -COVER BLOCk END - */
 
 /* CONTAINER-2 BLOCK START - CONTAINER-2 BLOCK START -CONTAINER-2 BLOCK START -CONTAINER-2 BLOCK START - */
@@ -135,7 +161,7 @@ ul{
     margin: 20px 20px;
     position: absolute;
     top:  90px;
-    left: 819px;
+    left: 820px;
 }
 
 .connection-requests{
@@ -154,7 +180,7 @@ ul{
     height: 390px;
     margin: 20px 20px;
     position: absolute;
-    top: 300px;
+    top: 318px;
     left: 820px;    
 }
 
@@ -169,9 +195,17 @@ ul{
 .container-4{
     border: rgb(193,193,193) 2px solid;
     width: 400px;
-    height: 200px;
+    height: 75px;
     margin: 20px 20px;
+    position: absolute;
+    top: 710px;
+    left: 820px;
+}
+.view-more{
+    color: black;
+}
+#view-more-link{
+    color: blue;
 }
 
 /* CONTAINER-4 BLOCK END - CONTAINER-4 BLOCK END - CONTAINER-4 BLOCK END - CONTAINER-4 BLOCK END -  */
-
