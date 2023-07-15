@@ -57,23 +57,29 @@ ul{
 
 /* COVER BLOCk START -  COVER BLOCk START - */
 .container{
-    width: 500px;
+    width: 575px;
     margin: 40px 300px;
 }
 
 #avatar{
     position:absolute;
     top: 150px;
-    left: 353px;
+    left: 404px;
     height: 120px;
     width: 120px;
     border-radius: 50%;
+}
+
+#edit-profile-text-decoration{
+    color: blue;
+    text-decoration: underline;
 }
 
 .user-card{
     display: flex;
     flex-direction: column;
     height: 700px;
+    margin-left: 60px;
 }
 /* EDUCATION BLOCK START - EDUCATION BLOCK START - */
 .education{
@@ -85,9 +91,8 @@ ul{
     font-family:'Roboto', sans-serif;
     text-align: center;
     font-size: x-large;
-    /* justify-content: space-between; */
-
 }
+
 
 #education-background{
     background-color: black;
@@ -103,18 +108,19 @@ ul{
     font-size: x-large;
     padding-right: 80px;
     font-weight: bold;
+    padding-bottom: 10px;
 }
 
 #dates{
     padding-top: 20px;
     text-align: left;
-    padding-left: 30px;
+    padding-left: 33px;
     font-size: medium;
+    padding-bottom: 10px;
 }
 
 #belts{
     padding-top: 10px;
-    padding-left: 10px;
     font-weight: bold;
 }
 
@@ -162,7 +168,7 @@ ul{
     margin: 20px 20px;
     position: absolute;
     top:  90px;
-    left: 820px;
+    left: 905px;
 }
 
 #header-request-spacing{
@@ -171,8 +177,7 @@ ul{
     background-color: white;
     color: black;
     border-radius: 40%;
-    margin-right: 10px;
-    
+    margin-right: 10px; 
 }
 
 #todd-picture{
@@ -180,10 +185,22 @@ ul{
     width: 60px;
     border-radius: 50%;
 }
+#todd-text{
+    padding-left: 40px;
+    position: absolute;
+    bottom: 83px;
+}
+
 #phil-picture{
     height: 60px;
     width: 60px;
     border-radius: 50%;
+}
+
+#phil-text{
+    padding-left: 40px;
+    position: absolute;
+    bottom: 23px;
 }
 
 .connection-requests{
@@ -194,25 +211,29 @@ ul{
     font-family:'Roboto', sans-serif;
     text-align: left;
     padding-left: 10px;
-    padding-top: 10px;
+    padding-top: 25px;
     font-weight: bolder;
     font-size: large;
+    
     
 }
 
 #header-requests{
     color: white;
+    margin-bottom: 20px;
 }
 
 #accept-icon{
     height: 45px;
     width: 45px;
+    margin-left: 190px;
     
 }
 
 #accept-icon2{
     height: 45px;
     width: 45px;
+    margin-left: 190px;
 }
 
 #decline-icon{
@@ -236,31 +257,112 @@ ul{
     margin: 20px 20px;
     position: absolute;
     top: 318px;
-    left: 820px;    
+    left: 905px;    
+
 }
 
 .your-connections{
+    background-color: black;
     display: flex;
     flex-direction: column;
+    height: 40px;
+    font-family:'Roboto', sans-serif;
+    text-align: left;
+    padding-left: 10px;
+    padding-top: 25px;
+    font-weight: bolder;
+    font-size: large;
 }
+
+#your-requests{
+    color: white;
+    margin-bottom: 45px;
+}
+
+#header-request-spacing2{
+    padding-right: 13px;
+    padding-left: 13px;
+    background-color: white;
+    color: black;
+    border-radius: 40%;
+    margin-right: 10px; 
+}
+
+#adrien-picture{
+    height: 60px;
+    width: 60px;
+    border-radius: 50%;
+    margin-right: 60px;
+}
+
+#adrien-text{
+    position: absolute;
+    bottom: 255px;
+    left: 108px;
+}
+
+#anne-picture{
+    height: 60px;
+    width: 60px;
+    border-radius: 50%;
+    margin-right: 60px;
+}
+
+#anne-text{
+    position: absolute;
+    bottom: 194px;
+    left: 108px;
+}
+
+#alayne-picture{
+    height: 60px;
+    width: 60px;
+    border-radius: 50%;
+    margin-right: 60px;
+}
+
+#alayne-text{
+    position: absolute;
+    bottom: 128px;
+    left: 108px;
+}
+
+#array-picture{
+    height: 60px;
+    width: 60px;
+    border-radius: 50%;
+    margin-right: 60px;
+}
+
+#array-text{
+    position: absolute;
+    bottom: 61px;
+    left: 108px;
+}
+
+
 /* CONTAINER-3 BLOCK END - CONTAINER-3 BLOCK END -  */
 
 /* CONTAINER-4 BLOCK START - CONTAINER-4 BLOCK START - */
 
 .container-4{
     border: rgb(193,193,193) 2px solid;
-    width: 400px;
-    height: 75px;
+    width: 360px;
+    height: 37px;
     margin: 20px 20px;
     position: absolute;
     top: 710px;
-    left: 820px;
+    left: 905px;
+    padding: 20px;
+    font-size: x-large;
 }
 .view-more{
     color: black;
 }
 #view-more-link{
     color: blue;
+    text-decoration: underline;
 }
 
 /* CONTAINER-4 BLOCK END - CONTAINER-4 BLOCK END -*/
+
