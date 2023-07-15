@@ -1,4 +1,4 @@
-/* NAVAGATION BAR START - NAVAGATION BAR START - NAVAGATION BAR START - NAVAGATION BAR START -  */
+/* NAVAGATION BAR START - NAVAGATION BAR START -  */
 
 * {
     margin: 0;
@@ -53,9 +53,9 @@ ul{
     height: 30px;
     margin-bottom: 10px ;
 }
-/* NAVAGATION BAR END - NAVAGATION BAR  END - NAVAGATION BAR  END - NAVAGATION BAR  END -  */
+/* NAVAGATION BAR END - NAVAGATION BAR  END  */
 
-/* COVER BLOCk START -  COVER BLOCk START -  COVER BLOCk START -  COVER BLOCk START - */
+/* COVER BLOCk START -  COVER BLOCk START - */
 .container{
     width: 500px;
     margin: 40px 300px;
@@ -67,6 +67,7 @@ ul{
     left: 353px;
     height: 120px;
     width: 120px;
+    border-radius: 50%;
 }
 
 .user-card{
@@ -74,7 +75,7 @@ ul{
     flex-direction: column;
     height: 700px;
 }
-/* EDUCATION BLOCK START - EDUCATION BLOCK START - EDUCATION BLOCK START - EDUCATION BLOCK START - */
+/* EDUCATION BLOCK START - EDUCATION BLOCK START - */
 .education{
     display: flex;
     flex-direction: column;
@@ -118,7 +119,7 @@ ul{
 }
 
 
-/* EDUCATION BLOCK END - EDUCATION BLOCK END - EDUCATION BLOCK END - EDUCATION BLOCK END -  */
+/* EDUCATION BLOCK END - EDUCATION BLOCK END */
 .header{
     background-color: rgb(20,162,184);
     flex: 1;
@@ -150,9 +151,9 @@ ul{
     margin-right: 10px;
 }
 
-/* COVER BLOCk END - COVER BLOCk END -COVER BLOCk END -COVER BLOCk END -COVER BLOCk END -COVER BLOCk END - */
+/* COVER BLOCk END - COVER BLOCk END - */
 
-/* CONTAINER-2 BLOCK START - CONTAINER-2 BLOCK START -CONTAINER-2 BLOCK START -CONTAINER-2 BLOCK START - */
+/* CONTAINER-2 BLOCK START - CONTAINER-2 BLOCK START */
 
 .container-2{
     border: rgb(193,193,193) 2px solid;
@@ -164,15 +165,69 @@ ul{
     left: 820px;
 }
 
+#header-request-spacing{
+    padding-right: 13px;
+    padding-left: 13px;
+    background-color: white;
+    color: black;
+    border-radius: 40%;
+    margin-right: 10px;
+    
+}
+
+#todd-picture{
+    height: 60px;
+    width: 60px;
+    border-radius: 50%;
+}
+#phil-picture{
+    height: 60px;
+    width: 60px;
+    border-radius: 50%;
+}
+
 .connection-requests{
     display: flex;
     flex-direction: column;
+    background-color: black;
+    height: 40px;
+    font-family:'Roboto', sans-serif;
+    text-align: left;
+    padding-left: 10px;
+    padding-top: 10px;
+    font-weight: bolder;
+    font-size: large;
+    
 }
 
-/* CONTAINER-2 BLOCK END - CONTAINER-2 BLOCK END -CONTAINER-2 BLOCK END -CONTAINER-2 BLOCK END */
+#header-requests{
+    color: white;
+}
+
+#accept-icon{
+    height: 45px;
+    width: 45px;
+    
+}
+
+#accept-icon2{
+    height: 45px;
+    width: 45px;
+}
+
+#decline-icon{
+    height: 45px;
+    width: 45px;
+}
+
+#decline-icon2{
+    height: 45px;
+    width: 45px;
+}
+/* CONTAINER-2 BLOCK END - CONTAINER-2 BLOCK END */
 
 
-/* CONTAINER-3 BLOCK START - CONTAINER-3 BLOCK START -CONTAINER-3 BLOCK START -CONTAINER-3 BLOCK START - */
+/* CONTAINER-3 BLOCK START - CONTAINER-3 BLOCK START */
 
 .container-3{
     border: rgb(193,193,193) 2px solid;
@@ -188,9 +243,9 @@ ul{
     display: flex;
     flex-direction: column;
 }
-/* CONTAINER-3 BLOCK END - CONTAINER-3 BLOCK END - CONTAINER-3 BLOCK END - CONTAINER-3 BLOCK END -  */
+/* CONTAINER-3 BLOCK END - CONTAINER-3 BLOCK END -  */
 
-/* CONTAINER-4 BLOCK START - CONTAINER-4 BLOCK START -CONTAINER-4 BLOCK START -CONTAINER-4 BLOCK START - */
+/* CONTAINER-4 BLOCK START - CONTAINER-4 BLOCK START - */
 
 .container-4{
     border: rgb(193,193,193) 2px solid;
@@ -208,4 +263,4 @@ ul{
     color: blue;
 }
 
-/* CONTAINER-4 BLOCK END - CONTAINER-4 BLOCK END - CONTAINER-4 BLOCK END - CONTAINER-4 BLOCK END -  */
+/* CONTAINER-4 BLOCK END - CONTAINER-4 BLOCK END -*/
